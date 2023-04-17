@@ -1,0 +1,46 @@
+@media screen and (min-width:992px) {
+    .foot-head {
+        font-size: 18px; 
+        font-family: sans-serif; 
+        color: #0B0B0B; 
+        padding-bottom: 10px;
+    } 
+    
+    .foot-para {
+        font-family: sans-serif; 
+        color: #0B0B0B;
+        font-size: 13px;  
+        padding-bottom: 20px;
+    } 
+    
+    .main-foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        padding: 100px;
+        
+        
+        
+    }
+    
+    .foot-cardt {
+        display: flex;
+        flex-direction: column; 
+        margin-right: 80px;
+        margin-bottom: 30px;
+    
+    }
+    
+} 
+
+@media screen and (max-width:992px ) { 
+    .main-foot {
+    
+        display: none;
+    }
+
+}
+
+
+

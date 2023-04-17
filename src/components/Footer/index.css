@@ -1,0 +1,63 @@
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+} 
+
+.main-para, .main-para1 , .main-para2, .main-para3{
+    font-family: sans-serif; 
+    font-size: 12px; 
+    color: #0B0B0B; 
+    
+
+
+} 
+
+.main-para1 , .main-para2, .main-para3 {
+    padding-right: 50px;
+}
+
+.main-para {
+    padding-bottom: 20px;
+}
+
+.mauin{
+    order: 1;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width:992px) {
+    .footer-card {
+        flex-direction: row; 
+        justify-content: space-around; 
+        
+    } 
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        order: 1; 
+        
+    } 
+
+    .mauin {
+        order: 0;
+        width: 40%;
+    }
+
+    .main-para1 {
+        order: 2;
+    }
+    .main-para2 {
+        order: 1;
+
+    }
+
+    .main-para3 {
+        order: 0;
+    }
+}

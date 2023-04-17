@@ -1,0 +1,40 @@
+.top-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+} 
+
+.paaa {
+    margin-left: 15px;
+    
+}  
+
+.blue-head {
+    font-family: sans-serif; 
+    font-weight: bold; 
+    font-size: 14px;  
+    color: #ffffff;
+
+} 
+
+.blue-para {
+    font-family: sans-serif; 
+    
+    font-size: 14px;  
+    color: #ffffff;
+}
+
+
+.blue-unorder {
+    padding: 20px;
+
+} 
+
+.blue-li {
+    color: #ffffff; 
+    font-family: sans-serif; 
+    margin-bottom: 30px; 
+    
+}
