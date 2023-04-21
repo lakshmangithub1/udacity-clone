@@ -2,6 +2,8 @@ import './index.css'
 
 const FooterM = () => {
     return(
+        <>
+        <image src="https://www.udacity.com/images/svgs/udacity-tt-logo.svg"/>
         <div className='main-foot'>
             <div className='foot-cardt'> 
                 <h3 className='foot-head'>Featured Programs</h3> 
@@ -100,6 +102,7 @@ const FooterM = () => {
 
 
         </div>
+        </>
     )
 }
 

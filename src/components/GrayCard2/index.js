@@ -3,6 +3,7 @@ import './index.css'
 
 const GrayCard2 = () => {
     return(
+        <div className='bg-aligner'>
         <div className='gray-card-bg2'> 
             <div>
                 <h3 className="gray-main-head">OneTen/Blacks in Technology Scholarship Program</h3>
@@ -23,6 +24,7 @@ const GrayCard2 = () => {
             
             
 
+        </div>
         </div>
     )
 }

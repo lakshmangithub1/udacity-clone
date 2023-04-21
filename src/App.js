@@ -1,21 +1,21 @@
-import Navbar from './components/Navbar' 
+import Navbar from './components/Navbar';
 import Footer from './components/Footer'; 
 import FooterM from './components/Footer2'; 
 import BlueCard from './components/BlueCard'; 
-import GrayCard1 from './components/GrayCard1';
-import GrayCard2 from './components/GrayCard2'
 import WhiteCard from './components/WhiteCard';
+import Footer2 from './components/Footer2';
+import HeroSection from './components/HeroSection';
 import './App.css';
 
 function App() {
   return (
     <div >
       <Navbar/> 
-      <FooterM/> 
+      <HeroSection/>
       <BlueCard/>
       <WhiteCard/> 
-      <GrayCard1/>
-      <GrayCard2/>
+      <FooterM/> 
+      <Footer/>
     </div>
   );
 }
