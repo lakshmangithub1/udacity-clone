@@ -47,3 +47,7 @@
     border: 0px solid #2015FF;
 }
 
+.bg-aligner{
+    display: flex;
+    justify-content: center;
+}

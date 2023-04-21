@@ -1,0 +1,133 @@
+.bg-color{
+    /* background-image: linear-gradient(#0B0B45, white); */
+    background-color: #0B0B45;
+    border-bottom-left-radius: 125px;
+    height: 190vh;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+.text-aligner{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-bottom:10px ;
+
+}
+.img-aligner{
+    width: 500px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom:10px ;
+}
+
+.gray-card-bg {
+    width: 75%; 
+    background-color: #ebebeb; 
+    padding: 56px;
+    border-top-right-radius: 80px;  
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+} 
+
+
+.gray-main-head {
+    font-family: sans-serif; 
+    font-size: 25px ;
+    color: #0b0b0b;
+    margin-bottom:  24px;
+}
+
+.gray-para {
+    font-family: 16px; 
+    font-family: sans-serif; 
+    color: #0b0b0b; 
+
+}
+
+.gray-card {
+    margin-bottom:  24px;
+}
+
+.gray-head {
+    font-family: 18px; 
+    font-family: sans-serif; 
+    color: #0b0b0b; 
+
+} 
+
+.gray-butt {
+    width: 220px; 
+    height: 60px; 
+    font-family: sans-serif; 
+    background-color: #2015FF; 
+    color: #ffffff; 
+    font-family: 16px; 
+    padding: 0px 20px 0px 24px;
+    border-radius: 5px; 
+    border: 0px solid #2015FF;
+}
+
+.bg-aligner{
+    display: flex;
+    justify-content: center;
+}
+.gray-card-bg2 {
+    width: 75%; 
+    background-color: #ebebeb; 
+    padding: 56px;
+    border-top-right-radius: 5px;  
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+} 
+
+
+.gray-main-head {
+    font-family: sans-serif; 
+    font-size: 25px ;
+    color: #0b0b0b;
+    margin-bottom:  24px;
+}
+
+.gray-para {
+    font-family: 16px; 
+    font-family: sans-serif; 
+    color: #0b0b0b; 
+
+}
+
+.gray-card {
+    margin-bottom:  24px;
+}
+
+.gray-head {
+    font-family: 18px; 
+    font-family: sans-serif; 
+    color: #0b0b0b; 
+
+} 
+
+.gray-butt {
+    width: 220px; 
+    height: 60px; 
+    font-family: sans-serif; 
+    background-color: #2015FF; 
+    color: #ffffff; 
+    font-family: 16px; 
+    padding: 0px 20px 0px 24px;
+    border-radius: 5px; 
+    border: 0px solid #2015FF;
+}
+
+.bg-aligner1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

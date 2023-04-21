@@ -13,13 +13,15 @@ function Navbar() {
 
 	return (
 		<header>
-			<h3 className="logo">LOGO</h3>
+			<img src="https://www.udacity.com/images/svgs/udacity-tt-logo.svg"/>
+			{/* <h3 className="logo">LOGO</h3> */}
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
+				<a href="/#">Why Udacity?</a>
+				<a href="/#">Student Success</a>
 				
-				<a href="/#">About me</a>
-                <a href="/#">Contact me</a>
+				<a href="/#">Schools</a>
+                <a href="/#">Sign in</a>
+				<button className="outline-btn">Get Started</button>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

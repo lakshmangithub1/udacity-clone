@@ -2,6 +2,8 @@ import './index.css'
 
 const Footer = () => {
     return(
+        <div>
+        <span className='hr-cut'><hr/></span>
         <div className='footer-card'>
             <div className='top'> 
                 <p className='main-para1'>© 2011–2023 Udacity, Inc.</p>
@@ -23,6 +25,7 @@ const Footer = () => {
                 </p>
             </div>
            
+        </div>
         </div>
     )
 }
