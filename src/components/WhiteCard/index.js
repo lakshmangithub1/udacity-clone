@@ -57,6 +57,7 @@ const WhiteCard = () => {
         }, []);
 
         return ( 
+          <div className="flexbox">
           <div className='white-card'>
             <div className='white-card-bg'>
               <CircularProgressWithLabel value={73} /> 
@@ -69,6 +70,7 @@ const WhiteCard = () => {
             </div>
 
             
+          </div>
           </div>
             
         ) 

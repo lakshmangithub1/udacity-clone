@@ -38,3 +38,11 @@
     margin-bottom: 30px; 
     
 }
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.spacer{
+    margin: 20px;
+}
